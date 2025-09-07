@@ -1,0 +1,14 @@
+{
+  "name": "@aqueduct/figma-plugin",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@aqueduct/typescript-config": "*",
+    "@figma/plugin-typings": "*",
+    "vite": "^7.1.4"
+  }
+}

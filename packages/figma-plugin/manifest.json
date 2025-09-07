@@ -1,0 +1,14 @@
+{
+  "name": "@aqueduct/figma-plugin",
+  "id": "1546194328721608757",
+  "api": "1.0.0",
+  "main": "dist/index.js",
+  "capabilities": [],
+  "enableProposedApi": false,
+  "documentAccess": "dynamic-page",
+  "editorType": ["figma"],
+  "ui": "./src/ui/index.html",
+  "networkAccess": {
+    "allowedDomains": ["none"]
+  }
+}

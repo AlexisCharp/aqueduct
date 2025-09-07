@@ -1,0 +1,18 @@
+<style>
+  main {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  }
+</style>
+
+
+<main>
+  <h1>Hello, Figma!</h1>
+  <button id="import-button">Import Tokens</button>
+</main>
+
+  <script>
+    const importButton = document.getElementById('import-button');
+    importButton.onclick = () => {
+      parent.postMessage({ pluginMessage: { type: 'import-tokens', } }, '*');
+    };
+  </script>

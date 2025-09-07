@@ -4,12 +4,15 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
+    "test": "turbo run test",
+    "test:watch": "turbo run test:watch",
     "lint": "biome check .",
     "lint:fix": "biome check . --write",
     "check-types": "turbo run check-types"
   },
   "devDependencies": {
     "@biomejs/biome": "2.2.3",
+    "@types/node": "^24.3.1",
     "turbo": "^2.5.6",
     "typescript": "5.9.2"
   },

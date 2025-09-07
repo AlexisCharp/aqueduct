@@ -1,0 +1,10 @@
+{
+  "extends": "@aqueduct/typescript-config/base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
+    "typeRoots": ["../../node_modules/@types", "../../node_modules/@figma"]
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
